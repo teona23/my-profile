@@ -1,0 +1,93 @@
+body {
+	font-family: muli;
+	background-color: #F5EFE6; 
+	color: rgb (80; 80; 80);
+}
+
+h1, h2 {
+	font-family: Bennet Banner Black;
+	color: rgb (30, 30, 30,);
+}
+h1 {
+	font-weight: bold;
+	text-justify: center;
+	letter-spacing:2px;
+    font-size:30px;
+    margin:20px 0px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+h2 {
+	letter-spacing:1.5px;
+	font-size:20px;
+}
+
+
+a{
+	text-decoration: none;
+	color: #7895B2;
+	
+}
+
+a:hover {
+	color: #AEBDCA;
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-white{
+	background-color: #fefcf5;
+	padding: 60px;
+	margin: 50px 0px;
+	box-shadow: 7px 10px 10px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	text-align: center;
+}
+
+.img-circle {
+	width: 120px;
+    margin: 5px;
+    border-radius: 50%;
+    border: 5px solid rgb(174, 189, 202);
+    box-shadow: 0px 0px 10px rgb(200, 200, 200);
+
+}
+
+.btn-blue{
+	background-color: #7895B2;
+	color: #fefcf5;
+	padding: 10px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover{
+	background-color: black;
+	color: #fefcf5;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i:hover {
+	font-size: 70px;
+	color: #AEBDCA;
+}
+
+.list-inline i:hover {
+	color: black;
+}
+
+#introduction p {
+	margin-bottom: 30px;
+}
